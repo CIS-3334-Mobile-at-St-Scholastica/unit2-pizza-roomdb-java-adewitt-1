@@ -14,6 +14,51 @@ public class Pizza {
     final Double[] PIZZA_PRICES = {7.99, 9.99, 12.99, 14.99};
     @Ignore
     final String[] PIZZA_SIZES = {"Small","Medium","Large","X-Large"};
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTopping() {
+        return topping;
+    }
+
+    public void setTopping(String topping) {
+        this.topping = topping;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public Integer getSize() {
+        return size;
+    }
+
+    public void setSize(Integer size) {
+        this.size = size;
+    }
+
+    public String getStrSize() {
+        return strSize;
+    }
+
+    public void setStrSize(String strSize) {
+        this.strSize = strSize;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @PrimaryKey(autoGenerate = true)
     private int id; // Pizza ID for database
 
