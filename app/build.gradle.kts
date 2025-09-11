@@ -37,7 +37,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.room.common.jvm)
+    implementation(libs.room.runtime)
+    implementation(libs.room.runtime.jvm)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    annotationProcessor(libs.room.compiler)
 }
