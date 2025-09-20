@@ -1,16 +1,16 @@
 [versions]
-agp = "8.12.2"
+agp = "8.12.3"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 appcompat = "1.7.1"
 material = "1.13.0"
-activity = "1.10.1"
+activity = "1.11.0"
 constraintlayout = "2.2.1"
-roomCommonJvm = "2.7.2"
-roomRuntime = "2.7.2"
-roomCompiler = "2.7.2"
-roomRuntimeJvm = "2.7.2"
+roomCommonJvm = "2.8.0" # Change this line
+roomRuntime = "2.8.0"    # Change this line
+roomCompiler = "2.8.0"   # Change this line
+#roomRuntimeJvm = "2.8.0" # Change this line
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -23,7 +23,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
-room-runtime-jvm = { group = "androidx.room", name = "room-runtime-jvm", version.ref = "roomRuntimeJvm" }
+#room-runtime-jvm = { group = "androidx.room", name = "room-runtime-jvm", version.ref = "roomRuntimeJvm" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
